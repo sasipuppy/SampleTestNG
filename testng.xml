@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumTestNG" >
+
+
+  <test name="Chrome">
+   <!---parameter name="browserType" value="chrome"/>--->
+     <classes>
+         <class name="com.testng.practice.GmailLogin"/>
+      <!---<class name="com.testng.practice.testngPractice"/>--->
+    </classes>
+  </test> <!-- Regression -->
+  
+  <test name="Firefox">
+  <!---parameter name="browserType" value="chrome"/>--->
+      <classes>
+       <class name="com.testng.practice.GmailLogin"/>
+      <!---<class name="com.testng.practice.testngPractice"/>--->
+    </classes>
+  </test> <!-- Regression -->
+  
+</suite> <!-- SeleniumTestNG -->
